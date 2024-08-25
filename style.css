@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aqua;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 10%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: 26px;
+  align-items: center;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 26px;
+  margin-left: 40px;
+}
+
+a:hover {
+  color: aqua;
+  border-bottom: 2px solid white;
+}
